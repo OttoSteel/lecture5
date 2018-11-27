@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+
+    <test name="ProductTestChrome"   >
+        <parameter name="browser" value="chrome"></parameter>
+        <packages>
+            <package name="com.qatestlab" />
+        </packages>
+    </test>
+
+    <test name="ProductTestMobile"   >
+        <parameter name="browser" value="mobile"></parameter>
+        <packages>
+            <package name="com.qatestlab" />
+        </packages>
+    </test>
+
+</suite>
